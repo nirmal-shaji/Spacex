@@ -1,0 +1,268 @@
+.background{
+    background-image: url(images/icon1.webp);
+    background-position: center;
+    background-size: cover;
+    
+    height: 792px;
+}
+
+* {
+    margin: 0;
+}
+.logo{
+    width:210px;
+    height: 26.5;
+
+}
+.flexblock{
+    display: flex;
+    
+    
+}
+.flex2{
+    border: 1px solid black;
+    height: 40px;
+     display: flex;
+     color: white;
+     justify-content: space-around;
+     flex-shrink: 0;
+
+     
+
+
+}
+.navbar{
+
+    padding-top: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    
+    
+
+    
+    position: fixed;
+    
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.left-header{
+    margin-left: 50px;
+    width: 210px;
+    height: 20px;
+    margin-top: 10px;
+   padding-bottom: 18px;
+
+}
+
+.middle-header{
+    display: flex;
+    margin-left: 30px;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.right-header{
+    width: 100px;
+    display: flex;
+    padding-top: 7px;
+    margin-right: 60px;
+    
+
+}
+
+.items1{
+    margin-right: 10px;
+}
+.items1 :hover {
+    text-decoration: underline;
+
+}
+.shop :hover{
+    text-decoration: underline;
+}
+.hamburgalign{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.hamburg{
+    width: 16px;
+    height: 2px;
+    background-color: white;
+    margin: 2px
+}
+.secondblockbalance{
+    height: 496px;
+}
+.thirdblockbalance{
+    height: 0px;
+}
+    
+.secondblock{
+    
+    width:520px ;
+    height: 177.6px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+    
+    margin-top: 2px;
+    display:flex;
+    flex-direction: column;
+}
+.thirdblock{
+    width:520px ;
+    height: 177.6px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+    
+    padding-top: 500px;
+    display:flex;
+    flex-direction: column;
+}
+.fourthblock{
+    
+    width:520px ;
+    height: 177.6px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+     margin-top: 0px;
+     padding-top: 500px;
+    display:flex;
+    flex-direction: column;
+}
+.fifthblock{
+    
+    width:500px ;
+    height: 177.6px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+    padding-top: 500px;
+    margin-top: 0px;
+    display:flex;
+    flex-direction: column;
+}
+.item1{
+    padding-top: 10px;
+    color: white;
+    padding-left: 10px;
+    font-weight: medium;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item2{
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.item3{
+   color: white;
+   border-color: white;
+   width: 150px;
+   height: 50px;
+   text-align: center;
+   background-color: transparent;
+   cursor: pointer;
+}
+.item4{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.background2{
+    background-image: url(images/icon2.webp);
+    background-position: center;
+    background-size: cover;
+    height: 792px; 
+}
+.background3{
+    background-image: url(images/icon3.webp);
+    background-position: center;
+    background-size: cover;
+    
+    height: 792px; 
+    
+}
+.background4{
+    background-image: url(images/icon4.webp);
+    background-position: center;
+    
+    background-size: cover;
+    height: 792px; 
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.foot1{
+ color: grey;
+ margin-right: 10px;
+ font-size: 12px;
+}
+.foot2{
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+   }.foot3{
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+   }.foot4{
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+   }.foot5{
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+   }
+ .foot6{
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+   }
+.foot7{
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+   }
+.foot8{
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+   }
+/* .flexbox{
+    display: flex;
+    justify-content:space-around;
+}
+.hamburg{
+    width: 10px;
+  height: 5px;
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 2px;
+
+  
+}
+.flexbox3{
+    display: flex;
+    justify-content:flex-end;
+    align-content:flex-start;
+} 
+img {
+    width: 100px;
+    height: 10px;
+    margin-top: 0px;
+  } */
